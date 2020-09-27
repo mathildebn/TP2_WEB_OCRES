@@ -104,3 +104,6 @@ input, select {
 .clear {
     clear: both;
 }
+ul li:hover .dropdown-menu{
+    display: block;
+}
