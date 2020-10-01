@@ -1,7 +1,7 @@
 @font-face {
     font-family: 'My Lucida';
     src: url('../font/LucidaGrande.ttf');
-    font-style: normal; 
+    font-style: normal;
     font-weight: bold;
 }
 
@@ -11,6 +11,7 @@
 
 body {
     background: linear-gradient(to bottom, #efefef, white) no-repeat;
+    
 }
 
 a {
@@ -18,8 +19,12 @@ a {
     text-decoration: none;
 }
 
+
 .wrapper {
     padding: 25px 0;
+    margin-bottom: 3%;
+    
+    
 }
 
 body > header {
@@ -51,10 +56,13 @@ main article {
     display: inline-block;
 }
 
+h6 {
+    color: #b8c3c9;
+}
 h3 {
     color: #b8c3c9;
     text-transform: uppercase;
-    font-size: 0.7em;
+    font-size: 0.75em;
     font-weight: normal;
     margin-bottom: 10px;
 }
@@ -130,6 +138,7 @@ h2 {
 
 header form {
     width: 100%;
+    
 }
 
 input.search {
@@ -215,7 +224,3 @@ nav a.top { background: url("../img/icon/top.png") no-repeat 0px; }
 nav a.new { background: url("../img/icon/new.png") no-repeat 0px; }
 nav a.collection { background: url("../img/icon/collection.png") no-repeat 0px; }
 nav a.history { background: url("../img/icon/history.png") no-repeat 0px; }
-
-
-
-
