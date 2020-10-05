@@ -217,6 +217,38 @@ nav.browse a, nav.music a {
     padding-left: 20px;
     padding-top: 2px;
 }
+@media screen and (max-width: 600px) {
+    form {
+      display: none;
+    }
+  }
+
+  @media screen and (max-width: 600px) {
+    .share {
+      display: none;
+    }
+  }
+  @media screen and (max-width:1400px)
+  {
+      body{
+          font-size : 100%;
+      }
+       
+   }
+
+   @media screen and (max-width:600px)
+  {
+       body{
+          font-size : 70%;
+      }
+   }
+
+   @media screen and (max-width:450px)
+  {
+       body{
+          font-size : 50%: 
+      }
+   }
 
 nav a.heavy { background: url("../img/icon/heavy.png") no-repeat 0px; }
 nav a.recent { background: url("../img/icon/recent.png") no-repeat 0px; }

@@ -102,37 +102,11 @@ input, select {
     vertical-align:middle;
 }
 
+
 .clear {
     clear: both;
 }
 ul li:hover .dropdown-menu{
     display: block;
 }
-@media screen and (max-width: 600px) {
-    form {
-      display: none;
-    }
-  }
 
-  @media screen and (max-width: 600px) {
-    .share {
-      display: none;
-    }
-  }
-
-  @media screen and (max-width: 1400px) {
-    body{ font-size: 100%;
-        
-    }
-}
-
-  @media screen and (max-width: 600px) {
-    body{
-        font-size: 50%;
-    }
-  }
- @media screen and (max-width: 450px) {
-    body{
-        font-size: 10%;
-    }
-}
